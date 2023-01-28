@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+  background-image: url(./Backgrounds_Blue_Black_Background_107698_24.jpg)
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+legend{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+    font-size: x-large;
+}
+</style>
+<body>
+  <center>
+    <h1><u>Job Application Form</u></h1>
+</center>
+<form>
+ <fieldset>
+    <legend align="center">Personal Information</legend>
+    <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" size="15" maxlength="30" placeholder="first name"> <br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" size="15" maxlength="30" placeholder="lastname"><br><br>
+  <label for="Gender">Gender:</label><br>
+   <input type="radio" name="Gender" value="Male" checked="checked">Male <br>
+   <input type="radio" name="Gender" value="Female" checked="checked">Female <br>
+   <input type="radio" name="Gender" value="Non-binary" checked="checked">Non-binary <br>
+   <input type="radio" name="Gender" value="Shaaper" checked="checked">Imtiaz ka Shaaper <br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="abc123@gmail.com"><br><br>
+  <label for="birthday">Date of Birth:</label>
+  <input type="date" id="birthday" name="birthday" ><br><br>
+  <label for="Phone number">Phone number:</label>
+  <input type="number" id="number" name="number" size="15" placeholder="03*******" maxlength="15"><br><br>
+  <label for="CNIC">CNIC:</label>
+  <input type="number" name="CNIC" id="CNIC" placeholder="XXXX-XXXXXXX-X" size="12" maxlength="15"><br><br>
+  <label for="address">Address:</label>
+  <textarea name="address" id="address" cols="30" rows="3">pata bol</textarea><br><br>
+ 
+</fieldset>
+<fieldset>
+    <legend align="center">Requirements</legend><br>
+    <label for="qualification">Qualification:</label><br>
+    <textarea name="qualification" cols="30" rows="3" placeholder="must be matric passed..."></textarea><br><br>
+    <label for="image">Passport size photo:</label><br>
+    <input type="file" id="image" value="image" required><br><br>
+    <label for="image">Matric Marksheet</label><br>
+    <input type="file" id="image" value="image" required><br>
+    <input type="image" src="./submit.png" width="200" height="200" />
+
+
+</fieldset>
+
+
+
+
+
+
+</form>
+
+
+</body>
+</html>
